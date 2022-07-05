@@ -1,0 +1,1 @@
+public abstract class Vehicle {    int requiredParks;    String type;    public Vehicle(int requiredParks, String type) {        this.requiredParks = requiredParks;        this.type = type;    }    public abstract void park(CarPark carpark);    public abstract void printVehicleDetails();}
